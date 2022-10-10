@@ -1,0 +1,5 @@
+@for $bucle from 1 through 10 {
+    .wid-#{$bucle}{
+        width: 10% * $bucle;
+    }
+}

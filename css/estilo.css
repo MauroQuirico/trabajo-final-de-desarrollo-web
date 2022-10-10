@@ -1,0 +1,62 @@
+.wid-1 {
+  width: 10%; }
+
+.wid-2 {
+  width: 20%; }
+
+.wid-3 {
+  width: 30%; }
+
+.wid-4 {
+  width: 40%; }
+
+.wid-5 {
+  width: 50%; }
+
+.wid-6 {
+  width: 60%; }
+
+.wid-7 {
+  width: 70%; }
+
+.wid-8 {
+  width: 80%; }
+
+.wid-9 {
+  width: 90%; }
+
+.wid-10 {
+  width: 100%; }
+
+.cl-f {
+  text-decoration-color: #FFD372; }
+
+.twhite {
+  color: white; }
+
+header {
+  background-color: #290418; }
+
+main {
+  background-color: #505217; }
+
+footer {
+  background-color: #FFD372; }
+
+.estilo-centrado {
+  background-color: #caf008;
+  text-align: center;
+  font-size: 14px; }
+
+.boton, .boton--secundario, .boton--cancelar {
+  width: 100px;
+  height: 25px;
+  background-color: #505217;
+  text-align: center;
+  border: 1px solid red; }
+
+.boton--secundario {
+  background-color: #FFD372; }
+
+.boton--cancelar {
+  background-color: #290418; }

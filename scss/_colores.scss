@@ -1,0 +1,18 @@
+$bg--header:#290418;
+$bg--main:#505217;
+$bg--footer:#FFD372;
+@mixin bg-1 {
+    background-color: $bg--header;
+}
+@mixin bg-2 {
+    background-color: $bg--main;
+}
+@mixin bg-3 {
+    background-color: $bg--footer;
+}
+.cl-f{
+    text-decoration-color: $bg--footer;
+}
+.twhite {
+    color: white;
+}

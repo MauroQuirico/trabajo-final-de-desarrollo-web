@@ -1,0 +1,17 @@
+.boton {
+	width:100px;
+	height:25px;
+	background-color: $bg--main;
+	text-align:center;
+	border:1px solid red;
+}
+
+.boton--secundario{
+	@extend .boton;
+	background-color: $bg--footer;
+}
+
+.boton--cancelar{
+	@extend .boton;
+	background-color: $bg--header;
+}

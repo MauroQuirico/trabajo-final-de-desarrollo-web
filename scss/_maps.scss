@@ -1,0 +1,17 @@
+$colors: (
+    blanco: #ffffff,
+    negro: #000000,
+    rojo: #af0404,
+    verde: #22ce07
+);
+$estilos: (
+    bg--color: #caf008,
+    centrado: center,
+    font--size: 14px,
+);
+
+.estilo-centrado {
+    background-color: map-get($estilos, bg--color);
+    text-align: map-get($estilos, centrado);
+    font-size: map-get($estilos, font--size);
+}
